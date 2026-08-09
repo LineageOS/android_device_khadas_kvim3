@@ -45,3 +45,6 @@ include device/amlogic/g12-common/BoardConfigCommon.mk
 
 ## Include the proprietary BoardConfig makefile
 include vendor/khadas/kvim3/BoardConfigVendor.mk
+
+## Kernel config fragments
+TARGET_KERNEL_CONFIG += khadas.config
