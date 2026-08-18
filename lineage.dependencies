@@ -4,8 +4,8 @@
     "target_path": "device/amlogic/g12-common"
   },
   {
-    "repository": "android_hardware_amlogic_kernel-modules_dhd-driver",
-    "target_path": "kernel/amlogic/kernel-modules/dhd-driver"
+    "repository": "android_kernel_khadas_kvim3-build",
+    "target_path": "kernel/platform/kernel-5.15/vendor/khadas/kvim3-build"
   },
   {
     "repository": "android_hardware_amlogic_u-boot",
