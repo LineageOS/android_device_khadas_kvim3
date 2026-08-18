@@ -12,11 +12,21 @@ BOARD_HAVE_BLUETOOTH := true
 TARGET_BOOTLOADER_BOARD_NAME := kvim3
 
 ## DTB
+BOARD_KERNEL_SEPARATED_DTBO := true
 TARGET_DTB_NAME := kvim3
+TARGET_DTBO_NAME := android_overlay_dt
+
+## Kernel
+TARGET_KERNEL_PLATFORM_TARGET := kvim3
+TARGET_KERNEL_SOURCE := vendor/khadas/kvim3-build
 
 ## Kernel modules
-TARGET_KERNEL_EXT_MODULES := \
-    dhd-driver/bcmdhd.101.10.591.x
+BOOT_KERNEL_MODULES := $(strip $(shell cat $(DEVICE_PATH)/vendor_boot.modules.load))
+RECOVERY_KERNEL_MODULES := $(BOOT_KERNEL_MODULES)
+
+BOARD_RECOVERY_KERNEL_MODULES_LOAD := $(BOOT_KERNEL_MODULES)
+BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/vendor_dlkm.modules.load))
+BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := $(BOOT_KERNEL_MODULES)
 
 ## Partitions
 BOARD_SUPER_PARTITION_SIZE := 2084569088
@@ -45,6 +55,3 @@ include device/amlogic/g12-common/BoardConfigCommon.mk
 
 ## Include the proprietary BoardConfig makefile
 include vendor/khadas/kvim3/BoardConfigVendor.mk
-
-## Kernel config fragments
-TARGET_KERNEL_CONFIG += khadas.config
