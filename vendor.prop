@@ -12,4 +12,4 @@ vendor.media.support.dolbyvision=false
 ro.soc.model=AMLA311D
 
 ## Wi-Fi
-vendor.bcm_wifi=bcm
+vendor.wifi_name=bcm
