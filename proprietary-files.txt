@@ -3,3 +3,7 @@
 
 ## Graphics
 vendor/lib/egl/libGLES_mali.so;SYMLINK=vendor/lib/hw/vulkan.amlogic.so
+
+## WiFi firmware
+vendor/firmware/wifi/fw_bcm4359c0_ag.bin:vendor/lib/firmware/wifi/fw_bcm4359c0_ag.bin|6433080c32ba4fe01fead673f7c4baece5cb7586
+vendor/firmware/wifi/nvram_ap6398s.txt:vendor/lib/firmware/wifi/nvram_ap6398s.txt|6ee4f69098bc95fd50600b87a577268ced86b1fc
