@@ -22,6 +22,30 @@
       },
       "revId": "ffb8a15c6801137a2f54c9e03243989868a27dbf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "359f99ad_50ee842a",
+        "filename": "keylayout/Vendor_0001_Product_0001.kl",
+        "patchSetId": 1
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-10-18T05:44:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "83deb983_fb7388e9",
+      "range": {
+        "startLine": 120,
+        "startChar": 0,
+        "endLine": 121,
+        "endChar": 20
+      },
+      "revId": "ffb8a15c6801137a2f54c9e03243989868a27dbf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
