@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "da2ca3a4_e606fa47",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 17162
+      },
+      "writtenOn": "2026-10-24T16:43:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7baedf61_ff96f297",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 38
+      },
+      "revId": "a8347c38efde126c97a234db1a82e8eb78e4ae84",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0d32a24b_130aeb98",
@@ -37,6 +61,30 @@
       "writtenOn": "2026-10-24T16:00:59Z",
       "side": 1,
       "message": "These must be pinned, unless it can be extracted from deadpool, which still marked as the source of blobs here.",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 81
+      },
+      "revId": "a8347c38efde126c97a234db1a82e8eb78e4ae84",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "19a1bf61_91e03a40",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 17162
+      },
+      "writtenOn": "2026-10-24T16:43:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0d32a24b_130aeb98",
       "range": {
         "startLine": 10,
         "startChar": 0,
